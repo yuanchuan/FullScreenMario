@@ -3,8 +3,7 @@
 //// ...Main = true: whether main loops
 //// ...Main = false: whether the main music pauses
 function play(name, main, override) {
-  return false;
-  var div = new Audio("Sounds/" + name);  
+  var div = new Audio("mario/Sounds/" + name);  
   div.name = name;
   if(main) {
     if(sounds[0]) {
